@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(122, 112, 153);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 80px;
+    
+}
