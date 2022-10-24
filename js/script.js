@@ -4,7 +4,7 @@ function ContinueClick() {
   var userMsg1 = document.getElementById("userMsg1").value;
   var userMsg2 = document.getElementById("userMsg2").value;
   var regExp1 =/^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
-  var regExp2 = /\d{10}/;
+  var regExp2 = /^[6-9]\d{9}$/;
 
   if (userId.match(regExp1)) {
     document.getElementById("userMsg1").innerHTML = "login success".fontcolor("green");
